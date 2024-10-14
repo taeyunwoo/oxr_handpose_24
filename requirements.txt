@@ -30,7 +30,7 @@ Cython==3.0.11
 debugpy==1.8.5
 decorator==5.1.1
 defusedxml==0.7.1
-detectron2==0.6+cu113
+# detectron2==0.6+cu113
 docker-pycreds==0.4.0
 dpcpp-cpp-rt==2024.2.1
 exceptiongroup==1.2.2
@@ -97,9 +97,9 @@ matplotlib==3.5.2
 matplotlib-inline==0.1.7
 mediapipe==0.10.15
 mistune==3.0.2
-mkl==2024.2.2
-mkl-fft==1.3.1
-mkl-service==2.4.0
+#mkl==2024.2.2
+#mkl-fft==1.3.1
+#mkl-service==2.4.0
 ml_dtypes==0.5.0
 multidict==6.1.0
 mypy-extensions==1.0.0

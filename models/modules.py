@@ -399,7 +399,7 @@ class joint3DDecoder_additional(nn.Module):
 
         uv = torch.clamp((uv - 0.5) * 2, -1, 1)
         x_sampled = self.index(uv, x)
-        import pdb; pdb.set_trace()
+        # import pdb; pdb.set_trace()
         x_adj = torch.bmm(x_sampled, self.upsample.repeat(x.size(0), 1, 1).to(x.device)) # [21, 21] -> adjacency
 
         # adding additional information
